@@ -1,12 +1,12 @@
 pull_request_rules:
-  - name: backport to humble at reviewers discretion
+  - name: backport to jazzy at reviewers discretion
     conditions:
       - base=main
-      - "label=backport-humble"
+      - "label=backport-jazzy"
     actions:
       backport:
         branches:
-          - humble
+          - jazzy
 
 
   - name: ask to resolve conflict
