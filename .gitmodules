@@ -1,0 +1,12 @@
+[submodule "plain_slam_ros2"]
+	path = plain_slam_ros2
+	url = https://github.com/scorpio-robot/plain_slam_ros2.git
+[submodule "terrain_analysis"]
+	path = terrain_analysis
+	url = https://github.com/scorpio-robot/terrain_analysis.git
+[submodule "terrain_analysis_ext"]
+	path = terrain_analysis_ext
+	url = https://github.com/scorpio-robot/terrain_analysis_ext.git
+[submodule "nav2_neupan_controller"]
+	path = nav2_neupan_controller
+	url = https://github.com/LihanChen2004/nav2_neupan_controller.git
