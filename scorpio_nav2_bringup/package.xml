@@ -15,7 +15,7 @@
   <exec_depend>nav2_smac_planner</exec_depend>
   <exec_depend>nav2_neupan_controller</exec_depend>
   <exec_depend>spatio_temporal_voxel_layer</exec_depend>
-  <exec_depend>scorpio_navigation</exec_depend>
+  <exec_depend>scorpio_navigation2</exec_depend>
 
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_cmake_black</test_depend>
