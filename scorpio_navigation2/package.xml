@@ -11,6 +11,7 @@
 
   <!-- scorpio_nav2_bringup doesn't belong for recursive dependencies -->
   <depend>loam_interface</depend>
+  <depend>scorpio_nav2_plugin</depend>
 
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_cmake_xmllint</test_depend>
