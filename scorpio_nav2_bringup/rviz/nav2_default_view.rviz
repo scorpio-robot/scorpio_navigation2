@@ -5,7 +5,6 @@ Panels:
     Property Tree Widget:
       Expanded:
         - /Global Options1
-        - /TF1/Frames1
         - /TF1/Tree1
       Splitter Ratio: 0.5857605338096619
     Tree Height: 1026
@@ -198,35 +197,35 @@ Visualization Manager:
         base_link:
           Value: true
         front_accel_frame:
-          Value: true
+          Value: false
         front_accel_optical_frame:
-          Value: true
+          Value: false
         front_bottom_screw_frame:
-          Value: true
+          Value: false
         front_color_frame:
-          Value: true
+          Value: false
         front_color_optical_frame:
-          Value: true
+          Value: false
         front_d435i:
-          Value: true
+          Value: false
         front_depth_frame:
-          Value: true
+          Value: false
         front_depth_optical_frame:
-          Value: true
+          Value: false
         front_gyro_frame:
-          Value: true
+          Value: false
         front_gyro_optical_frame:
-          Value: true
+          Value: false
         front_imu_frame:
-          Value: true
+          Value: false
         front_infra1_frame:
-          Value: true
+          Value: false
         front_infra1_optical_frame:
-          Value: true
+          Value: false
         front_infra2_frame:
-          Value: true
+          Value: false
         front_infra2_optical_frame:
-          Value: true
+          Value: false
         front_left_steering_link:
           Value: false
         front_left_wheel:
@@ -605,7 +604,7 @@ Visualization Manager:
             Filter size: 10
             History Policy: Keep Last
             Reliability Policy: Reliable
-            Value: /local_costmap/published_footprint
+            Value: /velocity_polygon_stop
           Value: true
         - Alpha: 1
           Autocompute Intensity Bounds: true
