@@ -16,6 +16,8 @@ lio_3d_node:
     # use_as_localizer:
     # map_cloud_dir:
     param_files_dir: $(find-pkg-share scorpio_nav2_bringup)/params/reality
+    save_trajectory: True
+    trajectory_dir: "tmp/pslam/trajectory"
 
     pointcloud_topic: livox/lidar
     imu_topic: livox/imu
